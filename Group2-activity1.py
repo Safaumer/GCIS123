@@ -136,7 +136,7 @@ def main():
     
 
 main()
-print(__doc__)
+
 
 
 
