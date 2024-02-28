@@ -1,2 +1,0 @@
-Name,Age,UNI
-Safa,18,RIT
