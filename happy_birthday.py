@@ -1,5 +1,0 @@
-name=input("Enter your name:")
-birthmonth=input("Enter your birth month:")
-birthday=input("Enter your birth date:")
-birthyear=input("Enter your birth year")
-print(name, ", your birthday is on",birthmonth,birthday,",",birthyear,"!")

@@ -1,5 +1,0 @@
-print("2"+"4")
-qwerty=int("24")
-print(4+qwerty)
-qwerty1=float("xyz")
-print(qwerty1)
