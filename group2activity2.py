@@ -1,3 +1,13 @@
+"""
+Group2 activity- Safa Umer and Joud Abed
+This program codes a currency converter. The main function prompts the user for different choices 
+such as the currency type, the amount to be converted and gives an output of a converted currency.
+
+"""
+
+
+
+
 def aed_usd(amount):
     exchange_rate=0.27
     money=exchange_rate*amount
@@ -28,7 +38,7 @@ def gbp_aed(amount):
     money=exchange_rate*amount
     print("USD", amount," is equal to AED",money,"\n")
 
-
+#the above functions does the actual calculations for the conversions.   
 
 
 def aed_to_others():
@@ -57,36 +67,6 @@ def aed_to_others():
         y=input("Do you still want to continue with aed to other currency conversion? y/n\n\nEnter your choice: ")
         
             
-def others_to_aed():
-    z="y"
-    while z=="y":
-        choice3=int(input("Select the currency you want to convert AED to\n1.US DOLLAR to AED\n2.EURO to AED \n3.BRITISH POUND to AED\n4.EXIT\n\nEnter your choice: "))
-        if choice3==1:
-            aedvalue=int(input("Enter the amount:"))
-            usd_aed(aedvalue)
-       
-
-        elif choice3==2:
-            aedvalue=int(input("Enter the amount:"))
-            eur_aed(aedvalue)
-       
-        elif choice3==3:
-            aedvalue=int(input("Enter the amount:"))
-            gbp_aed(aedvalue)
-           
-        elif choice3==4:
-            break
-
-        else:
-            print("Invalid input. Try Again.")
-            continue
-
-        z=input("Do you still want to continue with aed to other currency conversion? y/n\n\nEnter your choice: ")
-   
-       
-
-
-
 
 
 def main():
@@ -109,7 +89,7 @@ def main():
             print("\nYou selected conversion from OTHER CURRENCY TO AED \n\n")
             choice2=int(input("To confirm your choice enter '0'\nTo go back to previous menu enter '1'\n\nEnter your choice: "))
             if choice2==0:
-                others_to_aed()
+                #others_to_aed()
                 x=input("Do you want to continue with converter program y/n?\n\nEnter your choice: ")
             else:
                 continue
